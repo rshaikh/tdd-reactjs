@@ -4,7 +4,29 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
+  },
+  "jest": {
+    "testDirectoryName": "test",
+    "testPathDirs": [
+      "./test",
+      "./src"
+    ],
+    "testFileExtensions": [
+      "jsx",
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "jsx",
+      "js"
+    ],
+    "scriptPreprocessor": "<rootDir>/preprocessor",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/react-dom",
+      "<rootDir>/node_modules/react-addons-test-utils",
+      "<rootDir>/node_modules/fbjs"
+    ]
   },
   "author": "",
   "license": "ISC",
@@ -14,9 +36,13 @@
   },
   "devDependencies": {
     "babel-core": "^6.4.0",
+    "babel-jest": "^6.0.1",
     "babel-loader": "^6.2.1",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
+    "jest-cli": "^0.8.2",
+    "react-addons-test-utils": "^0.14.6",
+    "react-tools": "^0.13.3",
     "webpack": "^1.12.11"
   }
 }

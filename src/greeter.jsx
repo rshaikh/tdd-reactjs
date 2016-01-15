@@ -1,10 +1,10 @@
-import React from "react";
+var React = require('react');
 
 var Greeter = React.createClass({
   render: function() {
     return (
         <div className="greeting">
-          Hello, {this.props.name}!
+          Hello, {this.props.name} !
         </div>
     );
   }
