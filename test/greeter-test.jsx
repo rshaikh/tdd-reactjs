@@ -9,13 +9,11 @@ describe('Greeter', () => {
 
   it('should greet', () => {
 
-    //TestUtils.renderIntoDocument(<Greeter/>);
+    var element = TestUtils.renderIntoDocument(<Greeter name="World"/>);
 
-    /*var checkboxNode = ReactDOM.findDOMNode(checkbox);
+    var greeterNode = ReactDOM.findDOMNode(element);
 
-    // Verify that it's Off by default
-    expect(checkboxNode.textContent).toEqual('Hello Rashid');*/
-    expect("Hello").toEqual('Hello');
+    expect(greeterNode.textContent).toEqual('Hello, World !');
   });
 
 });

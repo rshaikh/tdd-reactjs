@@ -20,7 +20,7 @@
       "jsx",
       "js"
     ],
-    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "scriptPreprocessor": "<rootDir>/preprocessor",
     "unmockedModulePathPatterns": [
       "<rootDir>/node_modules/react",
       "<rootDir>/node_modules/react-dom",
@@ -42,6 +42,7 @@
     "babel-preset-react": "^6.3.13",
     "jest-cli": "^0.8.2",
     "react-addons-test-utils": "^0.14.6",
+    "react-tools": "^0.13.3",
     "webpack": "^1.12.11"
   }
 }
