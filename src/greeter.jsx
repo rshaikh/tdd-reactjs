@@ -4,7 +4,7 @@ var Greeter = React.createClass({
   render: function() {
     return (
         <div className="greeting">
-          Hello, {this.props.name}!
+          Hello World!
         </div>
     );
   }
