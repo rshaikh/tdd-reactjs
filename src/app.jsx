@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import Greeter from "./greeter.jsx";
 
 ReactDOM.render(
-    <Greeter/>,
+    <Greeter name="World"/>,
     document.getElementById('app')
 );
