@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import Greeter from "./greeter.jsx";
+import Cities from "./cities.jsx";
 
 ReactDOM.render(
-    <Greeter name="World"/>,
-    document.getElementById('app')
+    <Cities />,
+    document.getElementById('cities')
 );
