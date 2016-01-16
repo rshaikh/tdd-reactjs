@@ -1,6 +1,6 @@
-jest.dontMock("../../src/calculator/calc.js");
+jest.dontMock("../src/calculator.js");
 
-var Calculator = require('../../src/calculator/calc');
+var Calculator = require('../src/calculator');
 
 describe("calculator", () => {
   it("should do addition of two numbers", () => {
