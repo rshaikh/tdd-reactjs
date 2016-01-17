@@ -3,10 +3,9 @@ import Services from "./services.jsx"
 
 var Cities = React.createClass({
   componentDidMount: function () {
-    var self = this;
     Services.getCities(function (cities) {
-      self.setState({cities: cities});
-    });
+      this.setState({cities: cities});
+    }.bind(this));
   },
 
   getInitialState: function () {
