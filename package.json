@@ -22,13 +22,15 @@
       "<rootDir>/node_modules/react",
       "<rootDir>/node_modules/react-dom",
       "<rootDir>/node_modules/react-addons-test-utils",
-      "<rootDir>/node_modules/fbjs"
+      "<rootDir>/node_modules/fbjs",
+      "<rootDir>/node_modules/minivents"
     ]
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jquery": "^2.2.0",
+    "minivents": "^2.0.1",
     "react": "^0.14.6",
     "react-dom": "^0.14.6"
   },
