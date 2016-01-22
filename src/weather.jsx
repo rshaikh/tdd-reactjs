@@ -1,4 +1,6 @@
 import React from 'react';
+import Cities from './cities.jsx';
+import Temperature from './temperature.jsx';
 
 var Weather = React.createClass({
   render: function () {
@@ -9,7 +11,6 @@ var Weather = React.createClass({
         </div>
     )
   }
-
 });
 
 module.exports = Weather;
