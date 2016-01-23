@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import Greeter from "./greeter.jsx";
+import Weather from "./weather.jsx";
 
 ReactDOM.render(
-    <Greeter/>,
-    document.getElementById('app')
+    <Weather />,
+    document.getElementById('weather')
 );

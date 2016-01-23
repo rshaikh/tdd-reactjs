@@ -1,0 +1,42 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "name": "Pune"
+    },
+    {
+      "id": 2,
+      "name": "Mumbai"
+    },
+    {
+      "id": 3,
+      "name": "Delhi"
+    },
+    {
+      "id": 4,
+      "name": "Chennai"
+    }
+  ],
+  "temperature": [
+    {
+      "id": 1,
+      "name": "Pune",
+      "temperature": "21"
+    },
+    {
+      "id": 2,
+      "name": "Mumbai",
+      "temperature": "22"
+    },
+    {
+      "id": 3,
+      "name": "Delhi",
+      "temperature": "18"
+    },
+    {
+      "id": 4,
+      "name": "Chennai",
+      "temperature": "25"
+    }
+  ]
+}
